@@ -1,0 +1,4 @@
+cf push cachinator-redis -f redis-raw-manifest-we.yml &
+cf push cachinator-redis2 -f redis-raw-manifest-we.yml &
+cf push cachinator-redis3 -f redis-raw-manifest-we.yml &
+cf push cachinator-redis4 -f redis-raw-manifest-we.yml &

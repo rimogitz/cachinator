@@ -1,0 +1,9 @@
+applications:
+- name: cachinator-redis
+  path: ./target/cachinator-0.0.1-SNAPSHOT.jar
+  env:
+    JAVA_OPTS: -Dsun.net.spi.nameservice.nameservers=10.253.64.32
+    REDIS_NODE: redis-11111.rabo-ne.redisdemo.com
+    REDIS_PORT: 11111
+    REDIS_PASSWORD: pass
+    SPRING_PROFILES_ACTIVE: redis

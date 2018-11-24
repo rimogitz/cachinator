@@ -1,0 +1,12 @@
+applications:
+- name: cachinator-redis
+  path: ./target/cachinator-0.0.1-SNAPSHOT.jar
+  env:
+    REDIS_NODE: 10.253.6.37
+    REDIS_PORT: 11111
+    REDIS_PASSWORD: pass
+    SPRING_PROFILES_ACTIVE: redis-raw
+    CACHINATOR_NE_URL: http://cachinator-redis.apps.pcf-t01-ne.rabobank.nl
+    CACHINATOR_WE_URL: http://cachinator-redis.apps.pcf-t01-we.rabobank.nl
+    SERVICE_PORT: 80
+    KEY_TTL: 150000

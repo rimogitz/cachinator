@@ -1,0 +1,10 @@
+        //////
+       /:::  |
+       |---(_)      I'll be back!
+       |    _|    /
+ _____/  \___/\_____
+/     \       /     \
+|    )    "    (    |   :: Cachinator.... Caching Service Test App
+
+  :: Application version : ${application.version}
+  :: Spring Boot version : ${spring-boot.formatted-version}

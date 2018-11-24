@@ -1,0 +1,4 @@
+cf push cachinator-hazelcast -f hazelcast-manifest-we.yml &
+cf push cachinator-hazelcast2 -f hazelcast-manifest-we.yml &
+cf push cachinator-hazelcast3 -f hazelcast-manifest-we.yml &
+cf push cachinator-hazelcast4 -f hazelcast-manifest-we.yml &
